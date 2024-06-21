@@ -16,6 +16,7 @@
     border-radius: 20px;
     padding: 3px 15px;
     text-align: center;
+    z-index: 1;
 }
 
 .search{
@@ -151,8 +152,7 @@
         font-weight: bold;
     }
 
-    .humidity,
-    .wind-speed {
+    .col {
         font-size: 18px;
     }
 }
